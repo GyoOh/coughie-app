@@ -1,0 +1,36 @@
+.form-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.first-span{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333333;
+}
+.second-span{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 1rem;
+    color: #333333;
+}
+.my-textArea {
+    width: 20rem;
+    height: 10rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #81CBAC;
+    background-color: #E3F4ED;
+    margin-top: 30px;
+    overflow: scroll; 
+}
+.spend{
+    height: 90vh;
+}

@@ -1,0 +1,15 @@
+
+.daily-checkin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 26vh;
+    max-height: 40vh;
+}
+
+#plantProgress {
+    width: 280px;
+    z-index: 0;
+}

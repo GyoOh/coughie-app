@@ -1,0 +1,66 @@
+
+p{
+    color: #838383;
+}
+
+.homeMenu {
+    justify-content: center;
+    display:grid;
+    grid-template-columns: 45vw 45vw;
+    grid-row: auto;
+}
+
+
+.homeMenu img {
+    background-color:#E5F4FA;
+    padding:9vw;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    width:35.5vw;
+    height: 35vw;
+}
+
+.homeMenu div {
+    margin: 1vw 1vw 1vw 3vw;
+    align-items:center;
+    justify-content:center;
+}
+
+
+#plant {
+    height: 50vw;
+    width: 37vw;
+    right:4vw;
+    margin: 2.5vw 2vw;
+    position: absolute;
+}
+
+.click-icon {
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    right: 70px;
+    bottom: 100px;
+    opacity:0;
+	transform: scale(1);
+	animation-name: pulse;
+    animation-iteration-count: 3;
+    animation-duration: 1.3s;
+}
+
+@keyframes pulse {
+	0% {
+		 opacity:0.5;
+	}
+
+	50% {
+		right: 80px;
+        bottom: 130px;
+	}
+
+	100% {
+		
+        opacity:0.5;
+	}
+}
