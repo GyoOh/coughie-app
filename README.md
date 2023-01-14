@@ -52,4 +52,4 @@ $ npm install
 
 Copy code
 yarn run dev
-The app will now be running at[http://localhost:5173].
+The app will now be running at http://localhost:5173.
