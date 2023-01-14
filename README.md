@@ -6,7 +6,7 @@ Coughie is a mobile-first web application designed to help people who want to qu
 
 - [General info](#general-info)
 - [Features](#featuresj)
-- [PrototypeFrames](#Prototype Frames)
+- [PrototypeFrames](#PrototypeFrames)
 - [Technologies](#technologies)
 - [Setup](#setup)
 
